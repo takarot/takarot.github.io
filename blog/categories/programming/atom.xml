@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[rotta's memorandum]]></title>
-  <link href="http://takarot.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: programming | rotta's memorandum]]></title>
+  <link href="http://takarot.github.io/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://takarot.github.io/"/>
   <updated>2016-11-22T04:59:34+09:00</updated>
   <id>http://takarot.github.io/</id>
@@ -20,7 +20,7 @@
     <id>http://takarot.github.io/blog/2016/11/22/scala-test</id>
     <content type="html"><![CDATA[<p>scala syntax highlight test.</p>
 
-<figure class='code'><figcaption><span>Hello World - hello.scala </span></figcaption>
+<p><figure class='code'><figcaption><span>Hello World - hello.scala </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -28,11 +28,10 @@
 <span class='line-number'>5</span>
 </pre></td><td class='code'><pre><code class='scala'><span class='line'><span class="k">object</span> <span class="nc">test</span><span class="o">{</span>
 </span><span class='line'>  <span class="k">def</span> <span class="n">main</span><span class="o">(</span><span class="n">args</span><span class="k">:</span> <span class="kt">Array</span><span class="o">[</span><span class="kt">String</span><span class="o">])</span><span class="k">:</span> <span class="kt">Unit</span> <span class="o">=</span> <span class="o">{</span>
-</span><span class='line'>    <span class="n">println</span><span class="o">(</span><span class="s">&quot;Hello Scala!&quot;</span><span class="o">)</span>
+</span><span class='line'>    <span class="n">println</span><span class="o">(&amp;</span><span class="n">ldquo</span><span class="o">;</span><span class="nc">Hello</span> <span class="nc">Scala</span><span class="o">!&amp;</span><span class="n">rdquo</span><span class="o">;)</span>
 </span><span class='line'>  <span class="o">}</span>
 </span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></p>
 ]]></content>
   </entry>
   
@@ -43,11 +42,10 @@
     <id>http://takarot.github.io/blog/2016/11/21/ruby-test</id>
     <content type="html"><![CDATA[<p>ruby syntax highlight test.</p>
 
-<figure class='code'><figcaption><span>Time to be Awesome - awesome.rb </span></figcaption>
+<p><figure class='code'><figcaption><span>Time to be Awesome - awesome.rb </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">puts</span> <span class="s2">&quot;Awesome!&quot;</span> <span class="k">unless</span> <span class="n">lame</span>
-</span></code></pre></td></tr></table></div></figure>
-
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">puts</span> <span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="no">Awesome</span><span class="o">!&amp;</span><span class="n">rdquo</span><span class="p">;</span> <span class="k">unless</span> <span class="n">lame</span>
+</span></code></pre></td></tr></table></div></figure></p>
 ]]></content>
   </entry>
   

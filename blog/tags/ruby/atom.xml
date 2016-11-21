@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: ruby | rotta's memorandum]]></title>
+  <link href="http://takarot.github.io/blog/tags/ruby/atom.xml" rel="self"/>
+  <link href="http://takarot.github.io/"/>
+  <updated>2016-11-22T04:59:34+09:00</updated>
+  <id>http://takarot.github.io/</id>
+  <author>
+    <name><![CDATA[rotta]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[ruby-test]]></title>
+    <link href="http://takarot.github.io/blog/2016/11/21/ruby-test/"/>
+    <updated>2016-11-21T21:21:22+09:00</updated>
+    <id>http://takarot.github.io/blog/2016/11/21/ruby-test</id>
+    <content type="html"><![CDATA[<p>ruby syntax highlight test.</p>
+
+<p><figure class='code'><figcaption><span>Time to be Awesome - awesome.rb </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">puts</span> <span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="no">Awesome</span><span class="o">!&amp;</span><span class="n">rdquo</span><span class="p">;</span> <span class="k">unless</span> <span class="n">lame</span>
+</span></code></pre></td></tr></table></div></figure></p>
+]]></content>
+  </entry>
+  
+</feed>
