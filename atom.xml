@@ -4,7 +4,7 @@
   <title><![CDATA[rotta's memorandum]]></title>
   <link href="http://takarot.github.io/atom.xml" rel="self"/>
   <link href="http://takarot.github.io/"/>
-  <updated>2016-11-21T21:08:37+09:00</updated>
+  <updated>2016-11-22T01:33:04+09:00</updated>
   <id>http://takarot.github.io/</id>
   <author>
     <name><![CDATA[rotta]]></name>
@@ -12,5 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby-test]]></title>
+    <link href="http://takarot.github.io/blog/2016/11/21/ruby-test/"/>
+    <updated>2016-11-21T21:21:22+09:00</updated>
+    <id>http://takarot.github.io/blog/2016/11/21/ruby-test</id>
+    <content type="html"><![CDATA[<p>ruby syntax highlight test.</p>
+
+<figure class='code'><figcaption><span>Time to be Awesome - awesome.rb </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">puts</span> <span class="s2">&quot;Awesome!&quot;</span> <span class="k">unless</span> <span class="n">lame</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
 </feed>
