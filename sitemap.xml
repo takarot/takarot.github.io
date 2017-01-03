@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://takarot.github.io/blog/2016/11/23/wai-karayan-jiu-shi-falsesabaniakusesusitakatuta/</loc>
-<lastmod>2016-11-23T21:09:01+09:00</lastmod>
-</url>
-<url>
 <loc>http://takarot.github.io/blog/2016/11/22/scala-test/</loc>
 <lastmod>2016-11-22T02:17:39+09:00</lastmod>
 </url>
@@ -25,27 +21,9 @@
 <loc>http://takarot.github.io/blog/categories/programming/</loc>
 </url>
 <url>
-<loc>http://takarot.github.io/blog/categories/linux/</loc>
-</url>
-<url>
-<loc>http://takarot.github.io/blog/categories/opensuse/</loc>
-</url>
-<url>
-<loc>http://takarot.github.io/blog/categories/ssh/</loc>
-</url>
-<url>
 <loc>http://takarot.github.io/blog/tags/ruby/</loc>
 </url>
 <url>
 <loc>http://takarot.github.io/blog/tags/scala/</loc>
-</url>
-<url>
-<loc>http://takarot.github.io/blog/tags/ssh/</loc>
-</url>
-<url>
-<loc>http://takarot.github.io/blog/tags/vpn/</loc>
-</url>
-<url>
-<loc>http://takarot.github.io/blog/tags/opensuse/</loc>
 </url>
 </urlset>
