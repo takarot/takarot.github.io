@@ -1,0 +1,25 @@
+current directory: /home/xeno/gitRepo/octopress/vender/bundle/ruby/2.1.0/gems/fast-stemmer-1.0.2/ext
+/usr/bin/ruby.ruby2.1 -r ./siteconf20161121-10538-zr56fz.rb extconf.rb
+creating Makefile
+
+current directory: /home/xeno/gitRepo/octopress/vender/bundle/ruby/2.1.0/gems/fast-stemmer-1.0.2/ext
+make "DESTDIR=" clean
+
+current directory: /home/xeno/gitRepo/octopress/vender/bundle/ruby/2.1.0/gems/fast-stemmer-1.0.2/ext
+make "DESTDIR="
+compiling porter.c
+porter.c: In function ‘step5’:
+porter.c:359:27: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+       if (a > 1 || a == 1 && !cvc(z, z->k - 1)) z->k--;
+                           ^
+compiling porter_wrap.c
+porter_wrap.c: In function ‘stem_word’:
+porter_wrap.c:20:17: warning: unused variable ‘i’ [-Wunused-variable]
+  size_t length, i;
+                 ^
+linking shared-object stemmer.so
+
+current directory: /home/xeno/gitRepo/octopress/vender/bundle/ruby/2.1.0/gems/fast-stemmer-1.0.2/ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 stemmer.so ./.gem.20161121-10538-87i0tq
+installing default stemmer libraries

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "ruby-test"
+date: 2016-11-21 21:21:22 +0900
+comments: true
+categories: [programming]
+tags: [ruby]
+---
+
+ruby syntax highlight test.
+
+{% codeblock Time to be Awesome - awesome.rb %}
+puts "Awesome!" unless lame
+{% endcodeblock %}

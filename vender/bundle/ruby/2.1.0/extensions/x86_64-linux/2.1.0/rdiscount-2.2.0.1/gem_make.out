@@ -1,0 +1,433 @@
+current directory: /home/xeno/gitRepo/octopress/vender/bundle/ruby/2.1.0/gems/rdiscount-2.2.0.1/ext
+/usr/bin/ruby.ruby2.1 -r ./siteconf20161121-10538-1l49k1r.rb extconf.rb
+checking for random()... yes
+checking for srandom()... yes
+checking for rand()... yes
+checking for srand()... yes
+checking size of unsigned long... 8
+checking size of unsigned int... 4
+checking size of unsigned int... 4
+checking size of unsigned short... 2
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/xeno/gitRepo/octopress/vender/bundle/ruby/2.1.0/extensions/x86_64-linux/2.1.0/rdiscount-2.2.0.1/mkmf.log
+
+current directory: /home/xeno/gitRepo/octopress/vender/bundle/ruby/2.1.0/gems/rdiscount-2.2.0.1/ext
+make "DESTDIR=" clean
+
+current directory: /home/xeno/gitRepo/octopress/vender/bundle/ruby/2.1.0/gems/rdiscount-2.2.0.1/ext
+make "DESTDIR="
+compiling Csio.c
+In file included from Csio.c:4:0:
+Csio.c: In function ‘Csputc’:
+cstring.h:22:24: warning: operation on ‘iot->size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+Csio.c:14:5: note: in expansion of macro ‘EXPAND’
+     EXPAND(*iot) = c;
+     ^
+compiling amalloc.c
+amalloc.c: In function ‘acalloc’:
+amalloc.c:39:45: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+     if ( ret = calloc(count + sizeof(struct alist) + sizeof(int), size) ) {
+                                             ^
+compiling basename.c
+compiling css.c
+In file included from css.c:16:0:
+css.c: In function ‘mkd_css’:
+cstring.h:22:24: warning: operation on ‘f.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+css.c:57:6: note: in expansion of macro ‘EXPAND’
+      EXPAND(f) = 0;
+      ^
+compiling docheader.c
+compiling dumptree.c
+In file included from markdown.h:4:0,
+                 from dumptree.c:8:
+dumptree.c: In function ‘pushpfx’:
+cstring.h:22:24: warning: operation on ‘sp->size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+dumptree.c:44:24: note: in expansion of macro ‘EXPAND’
+     struct frame *q = &EXPAND(*sp);
+                        ^
+compiling emmatch.c
+In file included from emmatch.c:16:0:
+emmatch.c: In function ‘emfill’:
+cstring.h:22:24: warning: operation on ‘p->b_text.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+emmatch.c:79:4: note: in expansion of macro ‘EXPAND’
+    EXPAND(p->b_text) = p->b_char;
+    ^
+emmatch.c: In function ‘emmatch’:
+emmatch.c:113:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+     case 2: if ( e = empair(f,first,last,match=2) )
+     ^
+compiling flags.c
+flags.c: In function ‘mkd_flags_are’:
+flags.c:55:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if ( not = (*name == '!') ) {
+  ^
+compiling generate.c
+In file included from generate.c:16:0:
+generate.c: In function ‘push’:
+cstring.h:22:24: warning: operation on ‘f->in.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+generate.c:37:2: note: in expansion of macro ‘EXPAND’
+  EXPAND(f->in) = *bfr++;
+  ^
+generate.c: In function ‘pushc’:
+cstring.h:22:24: warning: operation on ‘f->in.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+generate.c:47:5: note: in expansion of macro ‘EXPAND’
+     EXPAND(f->in) = c;
+     ^
+generate.c: In function ‘Qchar’:
+cstring.h:22:24: warning: operation on ‘f->Q.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+generate.c:134:9: note: in expansion of macro ‘EXPAND’
+  cur = &EXPAND(f->Q);
+         ^
+cstring.h:22:24: warning: operation on ‘cur->b_text.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+generate.c:141:5: note: in expansion of macro ‘EXPAND’
+     EXPAND(cur->b_text) = c;
+     ^
+generate.c: In function ‘Qem’:
+cstring.h:22:24: warning: operation on ‘f->Q.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+generate.c:186:17: note: in expansion of macro ‘EXPAND’
+     block *p = &EXPAND(f->Q);
+                 ^
+cstring.h:22:24: warning: operation on ‘f->Q.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+generate.c:193:13: note: in expansion of macro ‘EXPAND’
+     memset(&EXPAND(f->Q), 0, sizeof(block));
+             ^
+generate.c: In function ‘linkyformat’:
+generate.c:650:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+     else if ( tag = pseudo(ref->link) ) {
+     ^
+generate.c: In function ‘linkylinky’:
+generate.c:746:7: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+       sizeof key, (stfu)__mkd_footsort) ) {
+       ^
+In file included from generate.c:16:0:
+generate.c: In function ‘printtable’:
+cstring.h:22:24: warning: operation on ‘align.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+generate.c:1588:2: note: in expansion of macro ‘EXPAND’
+  EXPAND(align) = it;
+  ^
+cstring.h:22:24: warning: operation on ‘align.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+generate.c:1601:6: note: in expansion of macro ‘EXPAND’
+      EXPAND(align) = a_NONE;
+      ^
+generate.c: In function ‘mkd_document’:
+cstring.h:22:24: warning: operation on ‘p->ctx->out.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+generate.c:1861:3: note: in expansion of macro ‘EXPAND’
+   EXPAND(p->ctx->out) = 0;
+   ^
+compiling github_flavoured.c
+In file included from github_flavoured.c:15:0:
+github_flavoured.c: In function ‘gfm_populate’:
+cstring.h:22:24: warning: operation on ‘line.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+github_flavoured.c:47:3: note: in expansion of macro ‘EXPAND’
+   EXPAND(line) = ' ';
+   ^
+cstring.h:22:24: warning: operation on ‘line.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+github_flavoured.c:48:3: note: in expansion of macro ‘EXPAND’
+   EXPAND(line) = ' ';
+   ^
+cstring.h:22:24: warning: operation on ‘line.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+github_flavoured.c:54:6: note: in expansion of macro ‘EXPAND’
+      EXPAND(line) = c;
+      ^
+compiling html5.c
+compiling markdown.c
+markdown.c: In function ‘commentblock’:
+markdown.c:264:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+     if ( end = strstr(T(t->text), "-->") ) {
+     ^
+markdown.c: In function ‘htmlblock’:
+markdown.c:315:3: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   if ( closing = (c == '/') ) c = flogetc(&f);
+   ^
+markdown.c: In function ‘is_extra_dt’:
+markdown.c:489:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if ( x=is_extra_dt(t->next, clip, flags) )
+  ^
+markdown.c: In function ‘isdefinition’:
+markdown.c:502:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+     if ( ret = is_discount_dt(t,clip,flags) )
+     ^
+markdown.c: In function ‘quoteblock’:
+markdown.c:830:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if ( p->ident = malloc(4+strlen(prefix)+S(q->text)) )
+  ^
+markdown.c: In function ‘definition_block’:
+markdown.c:918:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if ( para = (text != q->next) )
+  ^
+markdown.c:941:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if ( para = (q != text) ) {
+  ^
+markdown.c: In function ‘enumerated_block’:
+markdown.c:981:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if ( para = (q != text) ) {
+  ^
+In file included from markdown.c:16:0:
+markdown.c: In function ‘addfootnote’:
+cstring.h:22:24: warning: operation on ‘f->footnotes->note.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+markdown.c:1018:23: note: in expansion of macro ‘EXPAND’
+     Footnote *foot = &EXPAND(f->footnotes->note);
+                       ^
+cstring.h:22:24: warning: operation on ‘foot->tag.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+markdown.c:1026:2: note: in expansion of macro ‘EXPAND’
+  EXPAND(foot->tag) = T(p->text)[j];
+  ^
+cstring.h:22:24: warning: operation on ‘foot->tag.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+markdown.c:1028:5: note: in expansion of macro ‘EXPAND’
+     EXPAND(foot->tag) = 0;
+     ^
+cstring.h:22:24: warning: operation on ‘foot->title.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+markdown.c:1035:6: note: in expansion of macro ‘EXPAND’
+      EXPAND(foot->title) = T(p->text)[j++];
+      ^
+cstring.h:22:24: warning: operation on ‘foot->link.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+markdown.c:1040:2: note: in expansion of macro ‘EXPAND’
+  EXPAND(foot->link) = T(p->text)[j++];
+  ^
+cstring.h:22:24: warning: operation on ‘foot->link.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+markdown.c:1041:5: note: in expansion of macro ‘EXPAND’
+     EXPAND(foot->link) = 0;
+     ^
+cstring.h:22:24: warning: operation on ‘foot->title.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+markdown.c:1068:6: note: in expansion of macro ‘EXPAND’
+      EXPAND(foot->title) = T(p->text)[j++];
+      ^
+cstring.h:22:24: warning: operation on ‘foot->title.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+markdown.c:1074:2: note: in expansion of macro ‘EXPAND’
+  EXPAND(foot->title) = 0;
+  ^
+markdown.c: In function ‘compile’:
+markdown.c:1272:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  else if ( list_class = islist(ptr, &indent, f->flags, &list_type) ) {
+  ^
+compiling mkdio.c
+mkdio.c: In function ‘__mkd_new_Document’:
+mkdio.c:28:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if ( ret->ctx = calloc(sizeof(MMIOT), 1) ) {
+  ^
+In file included from mkdio.c:13:0:
+mkdio.c: In function ‘__mkd_enqueue’:
+cstring.h:22:24: warning: operation on ‘p->text.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+mkdio.c:61:3: note: in expansion of macro ‘EXPAND’
+   EXPAND(p->text) = ' ';
+   ^
+cstring.h:22:24: warning: operation on ‘p->text.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+mkdio.c:67:6: note: in expansion of macro ‘EXPAND’
+      EXPAND(p->text) = c;
+      ^
+cstring.h:22:24: warning: operation on ‘p->text.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+mkdio.c:71:5: note: in expansion of macro ‘EXPAND’
+     EXPAND(p->text) = 0;
+     ^
+mkdio.c: In function ‘populate’:
+cstring.h:22:24: warning: operation on ‘line.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+mkdio.c:117:6: note: in expansion of macro ‘EXPAND’
+      EXPAND(line) = c;
+      ^
+In file included from mkdio.c:14:0:
+mkdio.c: In function ‘mkd_generatehtml’:
+markdown.h:236:59: warning: statement with no effect [-Wunused-value]
+ #define DO_OR_DIE(op) if ( (op) == EOF ) return EOF; else 1
+                                                           ^
+mkdio.c:187:5: note: in expansion of macro ‘DO_OR_DIE’
+     DO_OR_DIE( szdoc = mkd_document(p,&doc) );
+     ^
+markdown.h:236:59: warning: statement with no effect [-Wunused-value]
+ #define DO_OR_DIE(op) if ( (op) == EOF ) return EOF; else 1
+                                                           ^
+mkdio.c:189:2: note: in expansion of macro ‘DO_OR_DIE’
+  DO_OR_DIE( mkd_generatexml(doc, szdoc, output) );
+  ^
+markdown.h:236:59: warning: statement with no effect [-Wunused-value]
+ #define DO_OR_DIE(op) if ( (op) == EOF ) return EOF; else 1
+                                                           ^
+mkdio.c:192:5: note: in expansion of macro ‘DO_OR_DIE’
+     DO_OR_DIE( putc('\n', output) );
+     ^
+mkdio.c: In function ‘mkd_line’:
+mkdio.c:274:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+     if ( len = S(f.out) ) {
+     ^
+In file included from mkdio.c:13:0:
+cstring.h:22:24: warning: operation on ‘f.out.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+mkdio.c:280:2: note: in expansion of macro ‘EXPAND’
+  EXPAND(f.out) = 0;
+  ^
+compiling mktags.c
+In file included from mktags.c:6:0:
+mktags.c: In function ‘define_one_tag’:
+cstring.h:22:24: warning: operation on ‘blocktags.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+mktags.c:17:21: note: in expansion of macro ‘EXPAND’
+     struct kw *p = &EXPAND(blocktags);
+                     ^
+mktags.c: At top level:
+mktags.c:44:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+ main()
+ ^
+compiling pgm_options.c
+compiling rdiscount.c
+rdiscount.c: In function ‘rb_rdiscount_to_html’:
+rdiscount.c:53:5: warning: implicit declaration of function ‘rb_rdiscount__get_flags’ [-Wimplicit-function-declaration]
+     int flags = rb_rdiscount__get_flags(self);
+     ^
+compiling resource.c
+compiling setup.c
+compiling tags.c
+In file included from tags.c:4:0:
+tags.c: In function ‘mkd_define_tag’:
+cstring.h:22:24: warning: operation on ‘extratags.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+tags.c:32:7: note: in expansion of macro ‘EXPAND’
+  p = &EXPAND(extratags);
+       ^
+compiling toc.c
+In file included from toc.c:14:0:
+toc.c: In function ‘mkd_toc’:
+cstring.h:22:24: warning: operation on ‘res.size’ may be undefined [-Wsequence-point]
+ #define EXPAND(x) (S(x)++)[(S(x) < (x).alloc) \
+                        ^
+toc.c:85:2: note: in expansion of macro ‘EXPAND’
+  EXPAND(res) = 0;
+  ^
+compiling version.c
+compiling xml.c
+xml.c: In function ‘mkd_generatexml’:
+xml.c:49:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if ( entity = mkd_xmlchar(c) )
+  ^
+In file included from xml.c:17:0:
+markdown.h:236:59: warning: statement with no effect [-Wunused-value]
+ #define DO_OR_DIE(op) if ( (op) == EOF ) return EOF; else 1
+                                                           ^
+xml.c:50:6: note: in expansion of macro ‘DO_OR_DIE’
+      DO_OR_DIE( fputs(entity, out) );
+      ^
+markdown.h:236:59: warning: statement with no effect [-Wunused-value]
+ #define DO_OR_DIE(op) if ( (op) == EOF ) return EOF; else 1
+                                                           ^
+xml.c:52:6: note: in expansion of macro ‘DO_OR_DIE’
+      DO_OR_DIE( fputc(c, out) );
+      ^
+xml.c: In function ‘mkd_xml’:
+xml.c:72:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if ( entity = mkd_xmlchar(c) )
+  ^
+compiling xmlpage.c
+In file included from xmlpage.c:14:0:
+xmlpage.c: In function ‘mkd_xhtmlpage’:
+markdown.h:236:59: warning: statement with no effect [-Wunused-value]
+ #define DO_OR_DIE(op) if ( (op) == EOF ) return EOF; else 1
+                                                           ^
+xmlpage.c:25:2: note: in expansion of macro ‘DO_OR_DIE’
+  DO_OR_DIE( fprintf(out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+  ^
+markdown.h:236:59: warning: statement with no effect [-Wunused-value]
+ #define DO_OR_DIE(op) if ( (op) == EOF ) return EOF; else 1
+                                                           ^
+xmlpage.c:31:2: note: in expansion of macro ‘DO_OR_DIE’
+  DO_OR_DIE( fprintf(out, "<head>\n") );
+  ^
+xmlpage.c:32:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  if ( title = mkd_doc_title(p) ) {
+  ^
+In file included from xmlpage.c:14:0:
+markdown.h:236:59: warning: statement with no effect [-Wunused-value]
+ #define DO_OR_DIE(op) if ( (op) == EOF ) return EOF; else 1
+                                                           ^
+xmlpage.c:33:6: note: in expansion of macro ‘DO_OR_DIE’
+      DO_OR_DIE( fprintf(out, "<title>%s</title>\n", title) );
+      ^
+markdown.h:236:59: warning: statement with no effect [-Wunused-value]
+ #define DO_OR_DIE(op) if ( (op) == EOF ) return EOF; else 1
+                                                           ^
+xmlpage.c:35:2: note: in expansion of macro ‘DO_OR_DIE’
+  DO_OR_DIE( mkd_generatecss(p, out) );
+  ^
+markdown.h:236:59: warning: statement with no effect [-Wunused-value]
+ #define DO_OR_DIE(op) if ( (op) == EOF ) return EOF; else 1
+                                                           ^
+xmlpage.c:36:2: note: in expansion of macro ‘DO_OR_DIE’
+  DO_OR_DIE( fprintf(out, "</head>\n"
+  ^
+markdown.h:236:59: warning: statement with no effect [-Wunused-value]
+ #define DO_OR_DIE(op) if ( (op) == EOF ) return EOF; else 1
+                                                           ^
+xmlpage.c:39:2: note: in expansion of macro ‘DO_OR_DIE’
+  DO_OR_DIE( mkd_generatehtml(p, out) );
+  ^
+markdown.h:236:59: warning: statement with no effect [-Wunused-value]
+ #define DO_OR_DIE(op) if ( (op) == EOF ) return EOF; else 1
+                                                           ^
+xmlpage.c:40:2: note: in expansion of macro ‘DO_OR_DIE’
+  DO_OR_DIE( fprintf(out, "</body>\n"
+  ^
+linking shared-object rdiscount.so
+
+current directory: /home/xeno/gitRepo/octopress/vender/bundle/ruby/2.1.0/gems/rdiscount-2.2.0.1/ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 rdiscount.so ./.gem.20161121-10538-fwm2ql
+installing default rdiscount libraries

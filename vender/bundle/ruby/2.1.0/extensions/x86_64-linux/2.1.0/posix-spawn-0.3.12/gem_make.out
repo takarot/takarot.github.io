@@ -1,0 +1,16 @@
+current directory: /home/xeno/gitRepo/octopress/vender/bundle/ruby/2.1.0/gems/posix-spawn-0.3.12/ext
+/usr/bin/ruby.ruby2.1 -r ./siteconf20161121-10538-7xyh3l.rb extconf.rb
+creating Makefile
+
+current directory: /home/xeno/gitRepo/octopress/vender/bundle/ruby/2.1.0/gems/posix-spawn-0.3.12/ext
+make "DESTDIR=" clean
+
+current directory: /home/xeno/gitRepo/octopress/vender/bundle/ruby/2.1.0/gems/posix-spawn-0.3.12/ext
+make "DESTDIR="
+compiling posix-spawn.c
+linking shared-object posix_spawn_ext.so
+
+current directory: /home/xeno/gitRepo/octopress/vender/bundle/ruby/2.1.0/gems/posix-spawn-0.3.12/ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 posix_spawn_ext.so ./.gem.20161121-10538-16wpjit
+installing default posix_spawn_ext libraries
