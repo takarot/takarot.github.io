@@ -4,7 +4,7 @@
   <title><![CDATA[rotta's memorandum]]></title>
   <link href="http://takarot.github.io/atom.xml" rel="self"/>
   <link href="http://takarot.github.io/"/>
-  <updated>2017-02-21T16:25:07+09:00</updated>
+  <updated>2017-02-21T16:47:27+09:00</updated>
   <id>http://takarot.github.io/</id>
   <author>
     <name><![CDATA[rotta]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Orairifalsedeep Learningdu Nderu. Part1]]></title>
+    <link href="http://takarot.github.io/blog/2017/02/21/orairifalsedeep-learningdu-nderu.-part1/"/>
+    <updated>2017-02-21T00:00:00+09:00</updated>
+    <id>http://takarot.github.io/blog/2017/02/21/orairifalsedeep-learningdu-nderu.-part1</id>
+    <content type="html"><![CDATA[<p>test</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[外から研究室のサーバにアクセスしたかった]]></title>
