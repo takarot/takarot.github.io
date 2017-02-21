@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[rotta's memorandum]]></title>
-  <link href="http://takarot.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Tag: vpn | rotta's memorandum]]></title>
+  <link href="http://takarot.github.io/blog/tags/vpn/atom.xml" rel="self"/>
   <link href="http://takarot.github.io/"/>
   <updated>2017-02-21T16:25:07+09:00</updated>
   <id>http://takarot.github.io/</id>
@@ -68,13 +68,9 @@
 <h3>「ポートフォワード」</h3>
 
 <p>  中継サーバに「このポートにアクセスがあったら、あのポートに繋いでね」ってことをお願いする。
-  <figure class='code'><figcaption><span>port foward command </span></figcaption></p>
-
+  <figure class='code'><figcaption><span>port foward command </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>ssh -L 12345:グローバルIPアドレス:54321　-p ポート番号 -l ユーザ名</span></code></pre></td></tr></table></div>
-
-
-<p></figure>
+</pre></td><td class='code'><pre><code class=''><span class='line'>ssh -L 12345:グローバルIPアドレス:54321　-p ポート番号 -l ユーザ名</span></code></pre></td></tr></table></div></figure>
   上のコマンドは「12345番ポートにアクセスがあったら、中継サーバ上で54321番ポートにマッピングして」ってこと。</p>
 
 <h3>「リモートフォワード」</h3>
@@ -94,13 +90,9 @@
   リモートフォワードで中継サーバと繋げばいい。
   研究室サーバ上で下のコマンドを実行する。
   僕の場合は研究室のデスクトップPCにteamviewerを入れて、それを使って研究室サーバにアクセスしています。
-  <figure class='code'><figcaption><span>remote foward command </span></figcaption></p>
-
+  <figure class='code'><figcaption><span>remote foward command </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>ssh -R 54321:研究室サーバのhostname:22222</span></code></pre></td></tr></table></div>
-
-
-<p></figure>
+</pre></td><td class='code'><pre><code class=''><span class='line'>ssh -R 54321:研究室サーバのhostname:22222</span></code></pre></td></tr></table></div></figure>
   上のコマンドは、「54321番ポートにアクセスがあったら、研究室サーバの22222番ポートにアクセスする」って意味。</p>
 
 <p>  初めの説明では、こんな感じで目的達成しようとしてました。
@@ -109,12 +101,10 @@
 <p>  それが実際にはこんな感じ。
 　今使ってるPC -> 中継サーバ &lt;- 使いたいサーバ</p>
 
-<p>ここまで出来たらこいつでトドメ。</p>
-
+<p>ここまで出来たらこいつでトドメ。
 <figure class='code'><figcaption><span>remote foward command </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>ssh  研究室サーバのユーザ名@研究室サーバのhostname -p22222</span></code></pre></td></tr></table></div></figure>
-
+</pre></td><td class='code'><pre><code class=''><span class='line'>ssh  研究室サーバのユーザ名@研究室サーバのhostname -p22222</span></code></pre></td></tr></table></div></figure></p>
 
 <p>これで外からでもアクセスできました。</p>
 
@@ -154,44 +144,6 @@
 
 <p>僕が借りたVPNサーバは何か別のことに使うことにします。
 とは言ったものの何に使おう・・・</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[scala-test]]></title>
-    <link href="http://takarot.github.io/blog/2016/11/22/scala-test/"/>
-    <updated>2016-11-22T02:17:39+09:00</updated>
-    <id>http://takarot.github.io/blog/2016/11/22/scala-test</id>
-    <content type="html"><![CDATA[<p>scala syntax highlight test.</p>
-
-<figure class='code'><figcaption><span>Hello World - hello.scala </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='scala'><span class='line'><span class="k">object</span> <span class="nc">test</span><span class="o">{</span>
-</span><span class='line'>  <span class="k">def</span> <span class="n">main</span><span class="o">(</span><span class="n">args</span><span class="k">:</span> <span class="kt">Array</span><span class="o">[</span><span class="kt">String</span><span class="o">])</span><span class="k">:</span> <span class="kt">Unit</span> <span class="o">=</span> <span class="o">{</span>
-</span><span class='line'>    <span class="n">println</span><span class="o">(</span><span class="s">&quot;Hello Scala!&quot;</span><span class="o">)</span>
-</span><span class='line'>  <span class="o">}</span>
-</span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ruby-test]]></title>
-    <link href="http://takarot.github.io/blog/2016/11/21/ruby-test/"/>
-    <updated>2016-11-21T21:21:22+09:00</updated>
-    <id>http://takarot.github.io/blog/2016/11/21/ruby-test</id>
-    <content type="html"><![CDATA[<p>ruby syntax highlight test.</p>
-
-<figure class='code'><figcaption><span>Time to be Awesome - awesome.rb </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">puts</span> <span class="s2">&quot;Awesome!&quot;</span> <span class="k">unless</span> <span class="n">lame</span>
-</span></code></pre></td></tr></table></div></figure>
-
 ]]></content>
   </entry>
   
